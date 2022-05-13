@@ -7,6 +7,12 @@ body {
     overflow-x: hidden;
     margin: 0;
     padding: 0;
+    background-color: $light;
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 // Rounded buttons

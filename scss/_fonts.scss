@@ -1,49 +1,57 @@
 /* Font sizes */
 h1,
 .h1 {
-    font-size: 4.375rem; // 70px
+    font-size: 6.360625rem; // 101.77px
     margin-bottom: 0;
+    
+    @include media-breakpoint-down(xl) {
+        font-size: 5rem;
+    }
 
     @include media-breakpoint-down(md) {
-        font-size: 3rem;
+        font-size: 4.5rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 2.915rem; // 46.64px;
     }
 }
 
 h2,
 .h2 {
-    font-size: 3.4375rem; // 55px
+    font-size: 5.774375rem; // 92.39px
     margin-bottom: 0;
 
     @include media-breakpoint-down(lg) {
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 2rem;
+        font-size: 3rem;
     }
 }
 
 h3,
 .h3 {
-    font-size: 2.5rem; // 40px
+    font-size: 5.0625rem; // 81px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(xl) {
+        font-size: 4.3rem;
+    }
+
     @include media-breakpoint-down(md) {
-        font-size: 2rem;
+        font-size: 4rem;
     }
 
     @include media-breakpoint-down(sm) {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 }
 
 h4,
 .h4 {
-    font-size: 2rem; // 32px
+    font-size: 5.015625rem; // 80.25px
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
@@ -53,59 +61,107 @@ h4,
 
 h5,
 .h5 {
-    font-size: 1.625rem; // 26px
+    font-size: 4.5rem; // 72px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(xl) {
+        font-size: 3.6rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        font-size: 3.4rem;
+    }
+
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.625rem; // 26px
     }
 }
 
 h6,
 .h6 {
-    font-size: 1.5625rem; // 25px
+    font-size: 2.9375rem; // 47px
     margin-bottom: 0;
 
+    @include media-breakpoint-down(md) {
+        font-size: 2.5rem;
+    }
+
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.32rem; // 21.12px
     }
 }
 
 h7,
 .h7 {
-    font-size: 1.5rem; // 24px
+    font-size: 2.875rem; // 46px
     margin-bottom: 0;
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.625rem; // 26px
     }
 }
 
 .h8 {
-    font-size: 1.4375rem; // 23px
+    font-size: 2.3125rem; // 37px
+
+    @include media-breakpoint-down(md) {
+        font-size: 2rem;
+    }
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 }
 
 .h9 {
-    font-size: 1.375rem; // 22px
+    font-size: 2.25rem; // 36px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.28rem; // 20.58px
     }
 }
 
 .h10 {
-    font-size: 1.25rem; // 20px
+    font-size: 2.125rem; // 34px
 
     @include media-breakpoint-down(sm) {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
 .h11 {
+    font-size: 1.5rem; // 24px
+
+    @include media-breakpoint-only(lg) {
+        font-size: 1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 12.48px;
+    }
+}
+
+.h12 {
+    font-size: 1.4375rem; // 23px
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.8125rem; // 13px
+    }
+}
+
+.h13 {
+    font-size: 1.25rem; // 20px
+
+    @include media-breakpoint-down(xl) {
+        font-size: 1.1rem; // 13px
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.8125rem; // 13px
+    }
+}
+
+.h14 {
     font-size: 1.125rem; // 18px
 
     @include media-breakpoint-down(sm) {
@@ -113,16 +169,54 @@ h7,
     }
 }
 
-.h12 {
-    font-size: 0.9375rem; // 15px
+.h15 {
+    font-size: 1rem; // 16px
+
+    @include media-breakpoint-down(md) {
+        font-size: 1.1rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 0.875rem;
+    }
 }
 
-$font-gilroy: "Gilroy", sans-serif;
+.h16 {
+    font-size: 0.875rem; // 14px
+}
 
-$font-body: $font-mergepro;
+.h17 {
+    font-size: 0.75rem; // 12px
+}
+
+.h18 {
+    font-size: 1rem;
+
+    @include media-breakpoint-down(sm) {
+        font-size: 10.5px;
+    } 
+}
+
+.h19 {
+    font-size: 1rem;
+
+    @include media-breakpoint-only(lg){
+        font-size: 0.875rem;
+    }
+
+    @include media-breakpoint-down(sm) {
+        font-size: 8.58px;
+    } 
+}
+
+$font-roboto: "Roboto", sans-serif;
+$font-coolvetica: "Coolvetica", sans-serif;
+
+$font-body: $font-coolvetica;
 
 $font-families: (
-    "gilroy": "Gilroy",
+    "roboto": "Roboto",
+    "coolvetica": "Coolvetica",
 );
 
 @each $name, $font-family in $font-families {
@@ -146,16 +240,13 @@ $asset-path: "../webfonts/";
     }
 }
 
-@include font-face("Gilroy", "Gilroy-Thin", 100);
-@include font-face("Gilroy", "Gilroy-Ultralight", 200);
-@include font-face("Gilroy", "Gilroy-Light", 300);
-@include font-face("Gilroy", "Gilroy-Regular", 400);
-@include font-face("Gilroy", "Gilroy-Medium", 500);
-@include font-face("Gilroy", "Gilroy-Semibold", 600);
-@include font-face("Gilroy", "Gilroy-Bold", 700);
-@include font-face("Gilroy", "Gilroy-Extrabold", 800);
-@include font-face("Gilroy", "Gilroy-Black", 900);
-@include font-face("Gilroy", "Gilroy-Heavy", 901);
+@include font-face("Coolvetica", "CoolveticaUl-Regular", 300);
+@include font-face("Coolvetica", "CoolveticaEl-Regular", 400);
+@include font-face("Coolvetica", "CoolveticaLt-Regular", 500);
+@include font-face("Coolvetica", "CoolveticaBk-Regular", 600);
+@include font-face("Coolvetica", "CoolveticaRg-Regular", 700);
+@include font-face("Coolvetica", "CoolveticaRg-Bold", 800);
+@include font-face("Coolvetica", "CoolveticaHv-Regular", 900);
 
 $font-weights: 300, 400, 500, 600, 700, 800, 900;
 

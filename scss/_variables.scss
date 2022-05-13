@@ -1,13 +1,21 @@
-$primary: #440099;
-$secondary: #C2046E;
-$tertiary: #3729C2;
-$dark: #393A41;
-$light: #e5e5e5;
+$primary: #F05325;
+$secondary: #8786CE;
+$tertiary: #2E2D71;
+$dark: #1E1E23;
+$grey: #A0A0AB;
+$dark-grey: #818493;
+$light: #F0F0F8;
+$white: #ffffff;
+$black: #1F1F24;
 
 $theme-colors: () !default;
 $theme-colors: map-merge(
     (
         "tertiary": $tertiary,
+        "black": $black,
+        "white": $white,
+        "grey": $grey,
+        "dark-grey": $dark-grey,
     ),
     $theme-colors
 );
@@ -27,7 +35,7 @@ $container-max-widths: (
     md: 740px,
     lg: 1280px,
     xl: 1442px,
-    xxl: 1628px,
+    xxl: 1552px,
 ) !default;
 
 // $input-btn-padding-y: 1.25rem !default;
