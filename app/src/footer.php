@@ -15,10 +15,14 @@
 					<div class="font-roboto h14 pb-4">Download Humm App</div>
 					<div class="row no-gutters">
 						<div class="col col-md-auto pr-1 pr-md-2">
-							<a target="_blank" href="https://www.shophumm.com/au/?_branch_match_id=943986903610864942&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXzyjNzdVNLNVLLCjQy8nMy9bPyM9N1U3JL8%2FLyU9MAQDy%2BlgXJgAAAA%3D%3D"><img src="<?= $img_dir ?>/lib/app-store.png" alt="App Store"></a>
+							<a target="_blank" href="https://www.shophumm.com/au/?_branch_match_id=943986903610864942&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXzyjNzdVNLNVLLCjQy8nMy9bPyM9N1U3JL8%2FLyU9MAQDy%2BlgXJgAAAA%3D%3D">
+								<?= renderImg("app-store.png", "lib") ?>
+							</a>
 						</div>
 						<div class="col col-md-auto pl-1 pl-md-2">
-							<a target="_blank" href="https://www.shophumm.com/au/?_branch_match_id=943986903610864942&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXzyjNzdVNLNVLLCjQy8nMy9bPyM9N1U3JL8%2FLyU9MAQDy%2BlgXJgAAAA%3D%3D"><img src="<?= $img_dir ?>/lib/google-play.png" alt="Google Play"></a>
+							<a target="_blank" href="https://www.shophumm.com/au/?_branch_match_id=943986903610864942&utm_medium=marketing&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXzyjNzdVNLNVLLCjQy8nMy9bPyM9N1U3JL8%2FLyU9MAQDy%2BlgXJgAAAA%3D%3D">
+								<?= renderImg("google-play.png", "lib") ?>
+							</a>
 						</div>
 					</div>
 				</div>
@@ -43,10 +47,10 @@
 			<div class="font-roboto h14 pb-4 text-center">Download Humm App</div>
 			<div class="row no-gutters justify-content-center">
 				<div class="col col-md-auto pr-1 pr-md-2">
-					<img src="<?= $img_dir ?>/lib/app-store.png" alt="App Store">
+					<?= renderImg("app-store.png", "lib") ?>
 				</div>
 				<div class="col col-md-auto pl-1 pl-md-2">
-					<img src="<?= $img_dir ?>/lib/google-play.png" alt="Google Play">
+					<?= renderImg("google-play.png", "lib") ?>
 				</div>
 			</div>
 		</div>
@@ -102,14 +106,16 @@
 					</div>
 				</div>
 				<div class="col-auto pt-4 pt-md-0">
-					<a href="https://www.aiims.com.au/like-our-work/" target="_blank"><img src="<?= $img_dir ?>/logo/aiims.png" alt="AIIMS"></a>
+					<a href="https://www.aiims.com.au/like-our-work/" target="_blank">
+						<?= renderImg("aiims.png","logo") ?>
+					</a>
 				</div>
 			</div>
 		</div>
 	</div>
 </footer>
 <a href="javascript:" id="return-to-top">
-	<img src="<?= $img_dir ?>/icons/arrow-up.webp">
+	<?= renderImg("arrow-up.png", "icons") ?>
 </a>
 <script type="text/javascript" src="./assets/js/app.js?v=0.4"></script>
 </body>

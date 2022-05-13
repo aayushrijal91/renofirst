@@ -95,6 +95,114 @@ header {
     }
 }
 
+section.about {
+    background: linear-gradient(270deg, $black 38.03%, rgba(51, 51, 57, 0) 74.35%), imgUrl("about.png");
+    background-size: contain;
+    padding: 128px 0;
+    
+    .about_description {
+        font-size: 15px;
+        font-family: $font-roboto;
+        color: $white;
+        padding: 35px 48px 35px 0;
+    }
+}
+
+section.form {
+    padding: 92px 0;
+
+    @include media-breakpoint-up(md) {
+        padding: 120px 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+        padding: 155px 0 222px;
+    }
+
+    .form_container {
+        box-shadow: 0px 35px 25px rgba(0, 0, 0, 0.1);
+        position: relative;
+
+        .form_main {
+            background: $white;
+            padding: 20px 16px;
+            height: 100%;
+
+            @include media-breakpoint-up(md) {
+                padding: 24px;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                padding: 20px 39px;
+            }
+
+            @include media-breakpoint-down(md) {
+                .h5 {
+                    font-size: 2.090625rem;
+                }
+            }
+
+            form {
+                .input-group {
+                    overflow: hidden;
+                    background: $white;
+                    border: 1px solid #e3e3e3;
+
+                    input,
+                    select {
+                        color: $dark;
+                        font-weight: 600;
+                        font-size: 14px;
+                        padding: 4px 16px;
+                        min-height: 28px;
+
+                        @include media-breakpoint-up(md) {
+                            padding: 4px 19.66px;
+                            min-height: 50px;
+                            font-size: 18.63px;
+                        }
+
+                        @include media-breakpoint-up(lg) {
+                            min-height: 60px;
+                        }
+
+                        &:focus {
+                            box-shadow: none;
+                            outline: none;
+                        }
+
+                        &::placeholder {
+                            color: #a0a0ab;
+                        }
+                    }
+
+                    select {
+                        color: #a0a0ab;
+
+                        option {
+                            color: $dark;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                button {
+                    min-height: 44px;
+
+                    @include media-breakpoint-up(md) {
+                        min-height: 61px;
+                    }
+                }
+            }
+        }
+
+        .form_imgSm {
+            min-width: 96.5vw;
+            float: right;
+        }
+    }
+}
+
 footer {
     .footer_top {
         background: linear-gradient(110deg, $primary 0 50%, $black 50% 100%);

@@ -54,11 +54,11 @@
 				<div class="row no-gutters justify-content-center justify-content-lg-between align-items-end align-items-md-center">
 					<div class="col-7 col-md-auto">
 						<a href="./">
-							<img src="<?= $img_dir ?>/logo/logo.png" alt="Logo">
+							<?= renderImg("logo.png", "logo") ?>
 						</a>
 					</div>
 					<div class="col-auto px-xl-4 px-xxl-5 py-4 py-xl-0 d-lg-none d-xl-block">
-						<img class="px-md-3 w-100" src="<?= $img_dir ?>/logo/accreditation.webp" alt="Accreditation">
+						<?= renderImg("accreditation.png","logo", "px-md-3") ?>
 					</div>
 					<div class="col-auto col-lg-auto col-xl-auto">
 						<div class="row no-gutters header_topBarButtons">
@@ -92,7 +92,7 @@
 						</div>
 						<div class="row no-gutters align-items-center">
 							<div class="col-2 col-md-auto pr-2 pr-md-3">
-								<img src="<?= $img_dir ?>/icons/banner-dollar.png" alt="Banner Dollar">
+								<?= renderImg("banner-dollar.png", "icons") ?>
 							</div>
 							<div class="col">
 								<div class="text-white fw-800 h9 line-height-1 text-italic">Pricing by the job, not by the hour</div>
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 			<div class="text-right d-xl-none">
-				<img src="<?= $img_dir ?>/background/banner_sm.webp" alt="">
+				<?= renderImg("banner_sm.webp", "background") ?>
 			</div>
 		</div>
 	</header>
