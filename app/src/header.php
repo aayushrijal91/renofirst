@@ -20,33 +20,90 @@
 			});
 		});
 	</script>
+
+	<!-- Google Tag Manager -->
+	<script>
+		(function(w, d, s, l, i) {
+			w[l] = w[l] || [];
+			w[l].push({
+				'gtm.start':
+
+					new Date().getTime(),
+				event: 'gtm.js'
+			});
+			var f = d.getElementsByTagName(s)[0],
+
+				j = d.createElement(s),
+				dl = l != 'dataLayer' ? '&l=' + l : '';
+			j.async = true;
+			j.src =
+				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+			f.parentNode.insertBefore(j, f);
+		})(window, document, 'script', 'dataLayer', 'GTM-T6KJDQ8');
+	</script>
+	<!-- End Google Tag Manager -->
 </head>
 
 <body>
+	<!-- Google Tag Manager (noscript) -->
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6KJDQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<!-- End Google Tag Manager (noscript) -->
 	<header>
-		<div class="header-top-bar">
-			<div class="container py-3">
-				<div class="row justify-content-center justify-content-lg-between align-items-center">
-					<div class="col-auto">
+		<div class="header_topBar">
+			<div class="container">
+				<div class="row no-gutters justify-content-center justify-content-lg-between align-items-end align-items-md-center">
+					<div class="col-7 col-md-auto">
 						<a href="./">
 							<img src="<?= $img_dir ?>/logo/logo.png" alt="Logo">
 						</a>
 					</div>
-					<div class="col-auto col-lg font-weight-bold">
-						<div class="row justify-content-center justify-content-lg-end no-gutters align-items-center">
-							<div class="col-12 col-md-auto ml-lg-3 mr-2 mr-lg-0">
-								<a href="#form-quote" class="btn btn-block btn-primary rounded-0 text-white py-3 px-md-5">
-									Get A Quote
+					<div class="col-auto px-xl-4 px-xxl-5 py-4 py-xl-0 d-lg-none d-xl-block">
+						<img class="px-md-3 w-100" src="<?= $img_dir ?>/logo/accreditation.webp" alt="Accreditation">
+					</div>
+					<div class="col-auto col-lg-auto col-xl-auto">
+						<div class="row no-gutters header_topBarButtons">
+							<div class="col-auto pr-1 pr-md-2">
+								<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-dark">
+									Call <?= $phone_number ?>
 								</a>
 							</div>
-							<div class="col-12 col-md-auto ml-lg-2">
-								<a href="tel:<?= $phone_number ?>" class="btn btn-block btn-secondary rounded-0 text-white py-3 px-md-5">
-									Call Us <?= $phone_number ?>
+							<div class="col-auto pl-1 pl-md-2">
+								<a href="#form" class="btn btn-block btn-primary">
+									Book A No Obligation Inspection
 								</a>
 							</div>
 						</div>
 					</div>
 				</div>
+				<div class="text-center d-none d-lg-block d-xl-none pt-5">
+					<img src="<?= $img_dir ?>/logo/accreditation.webp" alt="Accreditation">
+				</div>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="container h-100 position-relative">
+				<div class="row h-100 align-items-center banner_main">
+					<div class="col-12 col-xl-7 px-3">
+						<div class="banner_heroHeading h1">
+							Bathroom &amp; Kitchen Remodelling
+						</div>
+						<div class="banner_subHeading h9">
+							Book A No Obligation Inspection Today
+						</div>
+						<div class="row no-gutters align-items-center">
+							<div class="col-2 col-md-auto pr-2 pr-md-3">
+								<img src="<?= $img_dir ?>/icons/banner-dollar.png" alt="Banner Dollar">
+							</div>
+							<div class="col">
+								<div class="text-white fw-800 h9 line-height-1 text-italic">Pricing by the job, not by the hour</div>
+								<div class="font-roboto pt-2 text-dark-grey banner_subHeadingTagSm">No matter how long the job ends up taking us, you still pay the same price</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-right d-xl-none">
+				<img src="<?= $img_dir ?>/background/banner_sm.webp" alt="">
 			</div>
 		</div>
 	</header>

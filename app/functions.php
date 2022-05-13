@@ -1,6 +1,6 @@
 <?php
-$site = "Website Name";
-$phone_number = "0432 406 340";
+$site = "Reno First";
+$phone_number = "1300 775 634";
 $admin_email = 'arijal@aiims.com.au';
 $bcc_email = "";
 $no_reply_email = 'no-reply@icfitouts.com.au';

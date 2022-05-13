@@ -2,17 +2,169 @@
     @return url("../images/" + $path + "/" + $file) no-repeat;
 }
 
-footer {
-    .footer-nav-li {
-        font-size: 0.875rem;
-        line-height: 1.47rem;
-        color: #58585a
+header {
+    .header_topBar {
+        background-color: $white;
+        padding: 19px 0;
+        position: fixed;
+        width: 100%;
+        z-index: 1000;
+        box-shadow: 0 2.2184px 10.8703px rgba(0, 0, 0, 0.13);
+
+        .header_topBarButtons {
+            a.btn {
+                font-weight: 700;
+                border-radius: 2px;
+                line-height: 1;
+                font-size: 0.875rem;
+                padding: 10px 8px;
+
+                @include media-breakpoint-up(md) {
+                    padding: 19.5px 17px;
+                    font-size: 1.125rem;
+                }
+
+                @include media-breakpoint-up(xxl) {
+                    padding: 19.5px 27px;
+                    font-size: 1.25rem;
+                }
+            }
+        }
     }
 
-    .footer-nav-li-before::before {
-        @include media-breakpoint-up(lg) {
-            content: "|";
-            padding-right: 1.5rem;
+    .banner {
+        padding-top: 202px;
+        background: $black imgUrl("mobile_banner.png") right top;
+
+        @include media-breakpoint-up(md) {
+            background: $black;
+            padding-top: 255px;
         }
+
+        @include media-breakpoint-up(lg) {
+            padding-top: 196px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            padding-top: 101px;
+            background: black imgUrl("banner.png") 90% center;
+            background-size: contain;
+        }
+
+        .banner_main {
+            padding: 50px 0;
+
+            @include media-breakpoint-up(lg) {
+                padding: 100px 0;
+            }
+
+            @include media-breakpoint-up(xl) {
+                padding: 150px 0;
+            }
+
+            @include media-breakpoint-up(xxl) {
+                padding: 230px 0;
+            }
+
+            .banner_heroHeading {
+                line-height: 1;
+                font-weight: 700;
+                color: $white;
+                margin-bottom: 0;
+            }
+
+            .banner_subHeading {
+                line-height: 1.2;
+                font-weight: 700;
+                color: $white;
+                padding: 26.29px 0 20px;
+
+                @include media-breakpoint-up(md) {
+                    padding: 65px 0 55px 0;
+                }
+            }
+
+            .banner_subHeadingTagSm {
+                font-size: 1rem;
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 9px;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    .footer_top {
+        background: linear-gradient(110deg, $primary 0 50%, $black 50% 100%);
+
+        @include media-breakpoint-up(xl) {
+            background: linear-gradient(110deg, $primary 0 60%, $black 60% 100%);
+        }
+        padding: 44px 0;
+        color: $white;
+    }
+
+    .footer_first_sm {
+        background: $primary;
+        color: $white;
+        padding: 69px 0 61px;
+
+        .h5 {
+            font-size: 64.74px;
+            line-height: 0.88;
+        }
+
+        .h14 {
+            font-size: 18px;
+            padding: 24px 0;
+        }
+    }
+
+    .footer_second_sm {
+        background: $dark;
+        color: $white;
+        padding: 55px 0 62.46px;
+    }
+
+    .footer_middle {
+        background: $tertiary;
+        color: $white;
+        padding: 66px 0;
+
+        @include media-breakpoint-up(md) {
+            padding: 107px 0;
+        }
+
+        .quickContact_btn {
+            transform: skewX(-19deg);
+
+            .quickContact_btnInner {
+                transform: skewX(19deg);
+                font-weight: 600;
+                padding: 15px 12px;
+                color: $white;
+                font-size: 0.875rem;
+
+                @include media-breakpoint-up(md) {
+                    font-size: 20px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(md) {
+            .h4 {
+                font-size: 2.8475rem;
+            }
+        }
+    }
+
+    .footer_bottom {
+        padding: 36px 0;
+        background-color: $dark;
+        color: $dark-grey;
+        font-family: $font-roboto;
+        font-size: 0.875rem; // 14px
     }
 }
