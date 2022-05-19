@@ -99,7 +99,7 @@ section.about {
     background: linear-gradient(270deg, $black 38.03%, rgba(51, 51, 57, 0) 74.35%), imgUrl("about.png");
     background-size: contain;
     padding: 128px 0;
-    
+
     .about_description {
         font-size: 15px;
         font-family: $font-roboto;
@@ -199,6 +199,133 @@ section.form {
         .form_imgSm {
             min-width: 96.5vw;
             float: right;
+        }
+    }
+}
+
+section.services {
+    .subHeading {
+        font-size: 1.625rem;
+        line-height: 1.15;
+        text-align: center;
+        font-weight: 600;
+        padding: 45px 50px 40px;
+    }
+}
+
+section.energy-saving {
+    background: linear-gradient(0deg, $dark 75.52%, #36363c 100%);
+    
+    .hero-img {
+        border-right: 8px solid $primary;
+        width: 100%;
+    }
+
+    .description {
+        padding: 48px 101px;
+
+        .horizontal-divider {
+            height: 2px;
+            width: 100%;
+            margin: 39px 0 21px;
+            background: linear-gradient(
+                89.99deg,
+                rgba(255, 255, 255, 0) 0%,
+                #ffffff 48.96%,
+                rgba(255, 255, 255, 0) 100%
+            );
+        }
+    }
+}
+
+section.benefits {
+    padding-top: 174.55px;
+
+    .description {
+        font-size: 1.3125rem;
+        line-height: 1.61;
+        font-family: $font-roboto;
+        text-align: center;
+        padding: 24px 16px;
+
+        @include media-breakpoint-up(xl) {
+            padding: 62px 50px 22px;
+        }
+    }
+
+    .benefits-card {
+        margin: 40px 0;
+        background: $white;
+        border-top: 3px solid $primary;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 27px 32px 34px;
+    }
+}
+
+section.why-us {
+    padding: 115px 0 155px;
+
+    .container {
+        background: linear-gradient(0deg, #2e2d71 75.52%, #48478f 100%);
+        filter: drop-shadow(0px 24px 44px rgba(0, 0, 0, 0.25));
+
+        .cover-img {
+            margin-top: -52px;
+        }
+
+        .horizontal-divider {
+            height: 2px;
+            width: 100%;
+            margin: 41px 0 14px;
+            background: linear-gradient(
+                89.99deg,
+                rgba(255, 255, 255, 0) 0%,
+                #ffffff 48.96%,
+                rgba(255, 255, 255, 0) 100%
+            );
+        }
+
+        a {
+            color: $primary;
+            text-decoration: none;
+        }
+    }
+}
+
+section.cta {
+    .cta-card {
+        .cta_image {
+            width: 100%;
+        }
+
+        .card-body {
+            background: $white;
+            padding: 30px 30px 33px;
+
+            .card-head {
+                height: 74px;
+                font-style: italic;
+                font-weight: 800;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 1;
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 2.25rem; // 36px
+
+                @include media-breakpoint-down(sm) {
+                    font-size: 1.28rem; // 20.58px
+                }
+            }
+
+            .card-text {
+                font-family: $font-roboto;
+                color: $dark-grey;
+                font-size: 0.925rem;
+                padding-top: 27px;
+                min-height: 161px;
+            }
         }
     }
 }
