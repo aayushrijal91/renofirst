@@ -24,6 +24,33 @@ include __DIR__ . '/header.php';
 		<div class="subHeading">
 			Sometimes, it doesn't take much to spruce up the appearance of a dated or old bathroom. Today, many different modern<br class="d-none d-xxl-block"> plumbing fixtures and fittings can uplift your bathroom's functionality, water efficiency, energy efficiency, and look. We know what it takes to handle bathroom renovations, and our team can:
 		</div>
+		<div class="row justify-content-xl-end service-1">
+			<div class="col-6 service-main">
+				<div class="service-heading">Renovations Services</div>
+				<div class="service-description">When our expert plumbers are handling the renovation works, they will make sure that the other features do not become damaged in any way.</div>
+				<ul>
+					<li>Design advice</li>
+					<li>Install bathroom shower-units</li>
+					<li>Installing new taps</li>
+					<li>Replacing the tub</li>
+					<li>Replacing old plumbing pipes</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row service-2">
+			<div class="col-6 service-main">
+				<div class="service-heading">Remodelling Services</div>
+				<div class="service-description">If you feel that your bathroom needs a few upgrades, we can help. Our company handles:</div>
+				<ul>
+					<li>Plumbing upgrades and replacements</li>
+					<li>Replacing showers, toilets, baths, sinks and faucets</li>
+					<li>Bathroom plumbing repairs</li>
+					<li>Shower repairs</li>
+					<li>Relocating bathroom fixtures and fittings</li>
+					<li>Other</li>
+				</ul>
+			</div>
+		</div>
 	</div>
 </section>
 
