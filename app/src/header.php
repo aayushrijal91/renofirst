@@ -84,10 +84,10 @@
 			<div class="container h-100 position-relative">
 				<div class="row h-100 align-items-center banner_main">
 					<div class="col-12 col-xl-7 px-3">
-						<div class="banner_heroHeading h1">
+						<div class="banner_heroHeading">
 							Bathroom &amp; Kitchen Remodelling
 						</div>
-						<div class="banner_subHeading h9">
+						<div class="banner_subHeading">
 							Book A No Obligation Inspection Today
 						</div>
 						<div class="row no-gutters align-items-center">
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 			<div class="text-right d-xl-none">
-				<?= renderImg("banner_sm.webp", "background") ?>
+				<?= renderImg("banner_sm.png", "background") ?>
 			</div>
 		</div>
 	</header>

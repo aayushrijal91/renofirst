@@ -7,7 +7,7 @@ include __DIR__ . '/header.php';
 	<div class="container-fluid">
 		<div class="row justify-content-end">
 			<div class="col-lg-6">
-				<div class="h5 fw-700 text-white line-height-3">Bathroom &amp; Kitchen Renovations &amp; Remodelling</div>
+				<div class="about_heading">Bathroom &amp; Kitchen Renovations &amp; Remodelling</div>
 				<div class="about_description">
 					<p>Most people tend to put bathroom & kitchen renovations on the backburner when planning any home improvement projects. This primarily happens because they believe that renovating these spaces is a complicated and costly proposition. The neglect and delay in making minor bathroom or kitchen plumbing upgrades can prove to be expensive in the long term.</p>
 					<p>We at RenoFirst are a leading company in this industry. Over the years, we have handled a significant amount of bathroom & kitchen renovations, and we offer the best services at the most affordable price points.</p>
@@ -16,16 +16,17 @@ include __DIR__ . '/header.php';
 			</div>
 		</div>
 	</div>
+	<?= renderImg("about_sm.jpg", "background", "w-100 d-md-none") ?>
 </section>
 
 <section class="services">
 	<div class="container">
-		<div class="h5 fw-700 text-center line-height-1">Our RenoFirst Services</div>
+		<div class="hero_heading">Our RenoFirst Services</div>
 		<div class="subHeading">
 			Sometimes, it doesn't take much to spruce up the appearance of a dated or old bathroom. Today, many different modern<br class="d-none d-xxl-block"> plumbing fixtures and fittings can uplift your bathroom's functionality, water efficiency, energy efficiency, and look. We know what it takes to handle bathroom renovations, and our team can:
 		</div>
 		<div class="row justify-content-xl-end service-1">
-			<div class="col-6 service-main">
+			<div class="col-md-6 service-main">
 				<div class="service-heading">Renovations Services</div>
 				<div class="service-description">When our expert plumbers are handling the renovation works, they will make sure that the other features do not become damaged in any way.</div>
 				<ul>
@@ -38,7 +39,7 @@ include __DIR__ . '/header.php';
 			</div>
 		</div>
 		<div class="row service-2">
-			<div class="col-6 service-main">
+			<div class="col-md-6 service-main">
 				<div class="service-heading">Remodelling Services</div>
 				<div class="service-description">If you feel that your bathroom needs a few upgrades, we can help. Our company handles:</div>
 				<ul>
