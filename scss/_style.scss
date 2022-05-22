@@ -47,7 +47,7 @@ header {
 
         @include media-breakpoint-up(xl) {
             padding-top: 101px;
-            background: black imgUrl("banner.png") 90% center;
+            background: black imgUrl("banner.webp") 90% center;
             background-size: contain;
         }
 
@@ -128,13 +128,13 @@ section.about {
     background: $black;
 
     @include media-breakpoint-up(md) {
-        background: linear-gradient(270deg, $black 53.03%, rgba(51, 51, 57, 0) 84.35%), imgUrl("about.png") center top;
+        background: linear-gradient(270deg, $black 53.03%, rgba(51, 51, 57, 0) 84.35%), imgUrl("about.webp") center top;
         background-size: cover;
         padding: 80px 0 48px;
     }
 
     @include media-breakpoint-up(xl) {
-        background: linear-gradient(270deg, $black 38.03%, rgba(51, 51, 57, 0) 74.35%), imgUrl("about.png");
+        background: linear-gradient(270deg, $black 38.03%, rgba(51, 51, 57, 0) 74.35%), imgUrl("about.webp");
         background-size: contain;
         padding: 80px 0;
     }
@@ -227,7 +227,7 @@ section.services {
         }
 
         @include media-breakpoint-up(xl) {
-            background: imgUrl("service-1.png") center;
+            background: imgUrl("service-1.webp") center;
             background-size: contain;
             margin: 65px 0;
         }
@@ -273,7 +273,7 @@ section.services {
         }
 
         @include media-breakpoint-up(xl) {
-            background: imgUrl("service-2.png") center;
+            background: imgUrl("service-2.webp") center;
             background-size: contain;
             margin: 65px 0;
         }
