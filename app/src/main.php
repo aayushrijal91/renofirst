@@ -245,7 +245,7 @@ include __DIR__ . '/header.php';
 								</div>
 								<div class="col-12 mt-2">
 									<div class="input-group">
-										<input id="input_information" class="form-control border-0 rounded-0" type="text" placeholder="Further Information (optional)" name="message">
+										<input class="form-control border-0 rounded-0" type="text" placeholder="Further Information (optional)" name="message">
 									</div>
 								</div>
 								<div class="col-8 pt-4">
