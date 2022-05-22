@@ -26,7 +26,7 @@ include __DIR__ . '/header.php';
 			Sometimes, it doesn't take much to spruce up the appearance of a dated or old bathroom. Today, many different modern<br class="d-none d-xxl-block"> plumbing fixtures and fittings can uplift your bathroom's functionality, water efficiency, energy efficiency, and look. We know what it takes to handle bathroom renovations, and our team can:
 		</div>
 		<div class="row justify-content-xl-end service-1">
-			<div class="col-md-6 service-main">
+			<div class="col-xl-6 service-main">
 				<div class="service-heading">Renovations Services</div>
 				<div class="service-description">When our expert plumbers are handling the renovation works, they will make sure that the other features do not become damaged in any way.</div>
 				<ul>
@@ -39,7 +39,7 @@ include __DIR__ . '/header.php';
 			</div>
 		</div>
 		<div class="row service-2">
-			<div class="col-md-6 service-main">
+			<div class="col-xl-6 service-main">
 				<div class="service-heading">Remodelling Services</div>
 				<div class="service-description">If you feel that your bathroom needs a few upgrades, we can help. Our company handles:</div>
 				<ul>

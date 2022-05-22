@@ -221,6 +221,12 @@ section.services {
         background-size: contain;
 
         @include media-breakpoint-up(md) {
+            background: $primary;
+            background-size: contain;
+            margin: 65px 0;
+        }
+
+        @include media-breakpoint-up(xl) {
             background: imgUrl("service-1.png") center;
             background-size: contain;
             margin: 65px 0;
@@ -246,7 +252,11 @@ section.services {
         .service-main {
             padding: 93.82px 35px 548.85px;
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(md) {
+                padding: 57px 24px;
+            }
+
+            @include media-breakpoint-up(xl) {
                 padding: 57px 100px 57px 80px;
             }
         }
@@ -257,6 +267,12 @@ section.services {
         background-size: contain;
 
         @include media-breakpoint-up(md) {
+            background: $tertiary;
+            background-size: contain;
+            margin: 65px 0;
+        }
+
+        @include media-breakpoint-up(xl) {
             background: imgUrl("service-2.png") center;
             background-size: contain;
             margin: 65px 0;
@@ -282,7 +298,11 @@ section.services {
         .service-main {
             padding: 93.82px 35px 608.85px;
 
-            @include media-breakpoint-up(lg) {
+            @include media-breakpoint-up(md) {
+                padding: 57px 24px;
+            }
+
+            @include media-breakpoint-up(xl) {
                 padding: 57px 0px 57px 140px;
             }
         }
