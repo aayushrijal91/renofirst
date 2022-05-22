@@ -95,7 +95,7 @@
 								<?= renderImg("banner-dollar.png", "icons") ?>
 							</div>
 							<div class="col">
-								<div class="text-white fw-800 h9 line-height-1 text-italic">Pricing by the job, not by the hour</div>
+								<div class="banner_subHeadingPricing">Pricing by the job, not by the hour</div>
 								<div class="font-roboto pt-2 text-dark-grey banner_subHeadingTagSm">No matter how long the job ends up taking us, you still pay the same price</div>
 							</div>
 						</div>
