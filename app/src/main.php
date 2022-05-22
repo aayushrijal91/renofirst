@@ -58,7 +58,7 @@ include __DIR__ . '/header.php';
 <section class="energy-saving">
 	<div class="container-fluid px-0">
 		<div class="row no-gutters align-items-center">
-			<div class="col-12 col-lg-auto d-none d-md-block">
+			<div class="col-12 col-lg-6 col-xl-5 col-xxl-auto d-none d-md-block">
 				<?= renderImg("energy-saving.jpg", "lib", "hero-img") ?>
 			</div>
 			<div class="col-12 col-lg description">
@@ -121,7 +121,7 @@ include __DIR__ . '/header.php';
 			<div class="col-5 px-0 d-none d-md-block">
 				<?= renderImg("why-us.png", "lib", "cover-img") ?>
 			</div>
-			<div class="col-md-7 px-md-6 pt-7 py-md-4">
+			<div class="col-md-7 px-xxl-6 pt-7 p-md-4">
 				<div class="why-us-heading">Cost-Effective Bathroom &amp; Kitchen Renovations</div>
 				<div class="horizontal-divider"></div>
 				<div class="h15 text-secondary font-roboto">
