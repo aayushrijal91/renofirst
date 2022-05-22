@@ -58,7 +58,7 @@
 						</a>
 					</div>
 					<div class="col-auto px-xl-4 px-xxl-5 py-4 py-xl-0 d-lg-none d-xl-block">
-						<?= renderImg("accreditation.png","logo", "px-md-3") ?>
+						<?= renderImg("accreditation.png", "logo", "px-md-3") ?>
 					</div>
 					<div class="col-auto col-lg-auto col-xl-auto">
 						<div class="row no-gutters header_topBarButtons">
@@ -76,7 +76,7 @@
 					</div>
 				</div>
 				<div class="text-center d-none d-lg-block d-xl-none pt-5">
-					<img src="<?= $img_dir ?>/logo/accreditation.webp" alt="Accreditation">
+					<?= renderImg("accreditation.png", "logo") ?>
 				</div>
 			</div>
 		</div>

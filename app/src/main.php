@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <section class="about">
 	<div class="container-fluid">
 		<div class="row justify-content-end">
-			<div class="col-md-7 col-lg-6">
+			<div class="col-md-7 col-xl-6">
 				<div class="about_heading">Bathroom &amp; Kitchen Renovations &amp; Remodelling</div>
 				<div class="about_description">
 					<p>Most people tend to put bathroom & kitchen renovations on the backburner when planning any home improvement projects. This primarily happens because they believe that renovating these spaces is a complicated and costly proposition. The neglect and delay in making minor bathroom or kitchen plumbing upgrades can prove to be expensive in the long term.</p>
@@ -74,7 +74,7 @@ include __DIR__ . '/header.php';
 					We are very systematic in the tasks we handle and ensure that every stage of the project is planned perfectly down to the last detail. Our designers have detailed discussions to understand what your ideas and requirements are before recommending the best solutions. We also provide you with all the information you need about various plumbing products and recommend ones that would be best suited to your needs.
 				</div>
 			</div>
-			<div class="col-12 col-lg-auto d-xl-none">
+			<div class="col-12 col-xl-auto d-xl-none">
 				<?= renderImg("energy-saving.jpg", "lib", "hero-img") ?>
 			</div>
 		</div>
@@ -140,7 +140,7 @@ include __DIR__ . '/header.php';
 			<div class="col-12 px-0 d-md-none">
 				<?= renderImg("why-us-sm.png", "lib", "w-100") ?>
 			</div>
-			<div class="col-12 px-0 d-none d-md-block d-xl-none">
+			<div class="col-12 px-0 d-none d-md-block d-lg-none">
 				<?= renderImg("why-us-lg.png", "lib", "w-100") ?>
 			</div>
 		</div>
@@ -150,7 +150,7 @@ include __DIR__ . '/header.php';
 <section class="cta">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
+			<div class="col-12 col-md-6 col-xl-3 py-4 py-xl-0">
 				<div class="cta-card">
 					<?= renderImg("cta-1.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -161,7 +161,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
+			<div class="col-12 col-md-6 col-xl-3 py-4 py-xl-0">
 				<div class="cta-card">
 					<?= renderImg("cta-2.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -172,7 +172,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
+			<div class="col-12 col-md-6 col-xl-3 py-4 py-xl-0">
 				<div class="cta-card">
 					<?= renderImg("cta-3.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -183,7 +183,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
+			<div class="col-12 col-md-6 col-xl-3 py-4 py-xl-0">
 				<div class="cta-card">
 					<?= renderImg("cta-4.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
