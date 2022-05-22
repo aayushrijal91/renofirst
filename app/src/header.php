@@ -102,8 +102,11 @@
 					</div>
 				</div>
 			</div>
-			<div class="text-right d-xl-none">
+			<div class="text-right d-md-none">
 				<?= renderImg("banner_sm.png", "background") ?>
+			</div>
+			<div class="text-right d-none d-md-block d-xl-none">
+				<?= renderImg("banner.png", "background") ?>
 			</div>
 		</div>
 	</header>

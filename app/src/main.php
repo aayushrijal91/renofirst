@@ -6,7 +6,7 @@ include __DIR__ . '/header.php';
 <section class="about">
 	<div class="container-fluid">
 		<div class="row justify-content-end">
-			<div class="col-lg-6">
+			<div class="col-md-7 col-lg-6">
 				<div class="about_heading">Bathroom &amp; Kitchen Renovations &amp; Remodelling</div>
 				<div class="about_description">
 					<p>Most people tend to put bathroom & kitchen renovations on the backburner when planning any home improvement projects. This primarily happens because they believe that renovating these spaces is a complicated and costly proposition. The neglect and delay in making minor bathroom or kitchen plumbing upgrades can prove to be expensive in the long term.</p>
@@ -58,7 +58,7 @@ include __DIR__ . '/header.php';
 <section class="energy-saving">
 	<div class="container-fluid px-0">
 		<div class="row no-gutters align-items-center">
-			<div class="col-12 col-lg-6 col-xl-5 col-xxl-auto d-none d-md-block">
+			<div class="col-12 col-lg-6 col-xl-5 col-xxl-auto d-none d-xl-block">
 				<?= renderImg("energy-saving.jpg", "lib", "hero-img") ?>
 			</div>
 			<div class="col-12 col-lg description">
@@ -74,7 +74,7 @@ include __DIR__ . '/header.php';
 					We are very systematic in the tasks we handle and ensure that every stage of the project is planned perfectly down to the last detail. Our designers have detailed discussions to understand what your ideas and requirements are before recommending the best solutions. We also provide you with all the information you need about various plumbing products and recommend ones that would be best suited to your needs.
 				</div>
 			</div>
-			<div class="col-12 col-lg-auto d-md-none">
+			<div class="col-12 col-lg-auto d-xl-none">
 				<?= renderImg("energy-saving.jpg", "lib", "hero-img") ?>
 			</div>
 		</div>
@@ -91,25 +91,27 @@ include __DIR__ . '/header.php';
 		<div class="benefits-card">
 			<div class="row justify-content-between align-items-center">
 				<div class="col-auto text-italic line-height-1 h9 fw-700">Kitchen Remodelling<br> Services</div>
-				<div class="col-md-7 font-roboto text-dark-grey">
-					<div class="pt-4 pt-md-0 pb-3">We handle kitchen remodels with as much creativity and skill as bathroom projects. Our team can replace or add:</div>
+				<div class="col-auto d-none d-md-block d-xl-none"><?= renderImg("green-tick.png", "icons") ?></div>
+				<div class="col-xl-7 font-roboto text-dark-grey">
+					<div class="pt-4 pt-xl-0 pb-3">We handle kitchen remodels with as much creativity and skill as bathroom projects. Our team can replace or add:</div>
 					<div class="row no-gutters justify-content-between pt-1">
-						<div class="col-md-auto d-flex align-items-center py-2 py-md-0"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Kitchen Faucets &amp; Sinks</div>
-						<div class="col-md-auto d-flex align-items-center py-2 py-md-0 px-md-1"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Plumbing Lines For Appliances</div>
-						<div class="col-md-auto d-flex align-items-center py-2 py-md-0 px-md-1"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Water Plumbing Lines</div>
-						<div class="col-md-auto d-flex align-items-center py-2 py-md-0"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Other</div>
+						<div class="col-xl-auto d-flex align-items-center py-2 py-xl-0"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Kitchen Faucets &amp; Sinks</div>
+						<div class="col-xl-auto d-flex align-items-center py-2 py-xl-0 px-xl-1"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Plumbing Lines For Appliances</div>
+						<div class="col-xl-auto d-flex align-items-center py-2 py-xl-0 px-xl-1"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Water Plumbing Lines</div>
+						<div class="col-xl-auto d-flex align-items-center py-2 py-xl-0"><?= renderImg("tick-primary.png", "icons", "pr-3") ?> Other</div>
 					</div>
 				</div>
-				<div class="col-auto d-none d-md-block"><?= renderImg("green-tick.png", "icons") ?></div>
+				<div class="col-auto d-none d-xl-block"><?= renderImg("green-tick.png", "icons") ?></div>
 			</div>
 		</div>
 		<div class="benefits-card">
 			<div class="row justify-content-between align-items-center">
 				<div class="col-md-auto text-italic line-height-1 h9 fw-700">100% Customer<br> Satisfaction Guarantee</div>
-				<div class="col-md-7 font-roboto text-dark-grey pt-4 pt-md-0">
+				<div class="col-auto d-none d-md-block d-xl-none"><?= renderImg("green-tick.png", "icons") ?></div>
+				<div class="col-xl-7 font-roboto text-dark-grey pt-4 pt-xl-0">
 					We are a skilled bathroom and kitchen remodelling company that offers high-grade solutions at cost-effective price points. Our experts will visit your property and assess the existing features' condition before recommending the best solutions, within your budget. We source high-grade materials and products from credible local suppliers, complete every task to industry standards, covering all our work with guarantees, and finish the job on time.
 				</div>
-				<div class="col-auto d-none d-md-block"><?= renderImg("green-tick.png", "icons") ?></div>
+				<div class="col-auto d-none d-xl-block"><?= renderImg("green-tick.png", "icons") ?></div>
 			</div>
 		</div>
 	</div>
@@ -118,10 +120,10 @@ include __DIR__ . '/header.php';
 <section class="why-us">
 	<div class="container">
 		<div class="row align-items-center">
-			<div class="col-5 px-0 d-none d-md-block">
+			<div class="col-5 px-0 d-none d-xl-block">
 				<?= renderImg("why-us.png", "lib", "cover-img") ?>
 			</div>
-			<div class="col-md-7 px-xxl-6 pt-7 p-md-4">
+			<div class="col-xl-7 px-xxl-6 pt-7 py-md-5 py-xl-4 px-md-4">
 				<div class="why-us-heading">Cost-Effective Bathroom &amp; Kitchen Renovations</div>
 				<div class="horizontal-divider"></div>
 				<div class="h15 text-secondary font-roboto">
@@ -138,6 +140,9 @@ include __DIR__ . '/header.php';
 			<div class="col-12 px-0 d-md-none">
 				<?= renderImg("why-us-sm.png", "lib", "w-100") ?>
 			</div>
+			<div class="col-12 px-0 d-none d-md-block d-xl-none">
+				<?= renderImg("why-us-lg.png", "lib", "w-100") ?>
+			</div>
 		</div>
 	</div>
 </section>
@@ -145,7 +150,7 @@ include __DIR__ . '/header.php';
 <section class="cta">
 	<div class="container">
 		<div class="row">
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-md-0">
+			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
 				<div class="cta-card">
 					<?= renderImg("cta-1.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -156,7 +161,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-md-0">
+			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
 				<div class="cta-card">
 					<?= renderImg("cta-2.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -167,7 +172,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-md-0">
+			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
 				<div class="cta-card">
 					<?= renderImg("cta-3.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
@@ -178,7 +183,7 @@ include __DIR__ . '/header.php';
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-6 col-lg-3 py-4 py-md-0">
+			<div class="col-12 col-md-6 col-lg-3 py-4 py-lg-0">
 				<div class="cta-card">
 					<?= renderImg("cta-4.jpg", "lib", "cta_image") ?>
 					<div class="card-body">
