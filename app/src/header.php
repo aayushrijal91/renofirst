@@ -37,17 +37,20 @@
 				dl = l != 'dataLayer' ? '&l=' + l : '';
 			j.async = true;
 			j.src =
+
 				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
 			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-T6KJDQ8');
+
+		})(window, document, 'script', 'dataLayer', 'GTM-K6XH3TW');
 	</script>
 	<!-- End Google Tag Manager -->
 </head>
 
 <body>
 	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6KJDQ8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K6XH3TW" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) -->
+	
 	<header>
 		<div class="header_topBar">
 			<div class="container">
